@@ -7,9 +7,10 @@
     <title>myOAuth</title>
 
     <!--Reference platform.js library here-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 
     <!--Reference Client ID in meta tag here-->
-
+    <meta name="google-signin-client_id" content="684666372653-nhvm938qfbj1iqm3j2323mt4ltd667gc.apps.googleusercontent.com">
 
     <!--jquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -23,7 +24,6 @@
         <div class="g-signin2" data-onsuccess="onSignIn"></div>
         <a href="#" class="signOut" onclick="onSignOut();">Sign out</a>
     </div>
-
 
     <div class ="mainContainer">
         <!--Text greeting user-->
